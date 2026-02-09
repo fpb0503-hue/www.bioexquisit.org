@@ -1,0 +1,7 @@
+{
+  "name": "BIOEXQUISIT - Authentic Organic Panela",
+  "description": "A premium e-commerce and brand experience for BIOEXQUISIT, featuring organic panela products, sustainable heritage stories, artisan recipes, and wholesale distribution management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

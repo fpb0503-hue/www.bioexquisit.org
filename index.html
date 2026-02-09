@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOEXQUISIT | Panela Orgánica Premium</title>
+    <meta name="description" content="Auténtica panela orgánica granulada de los Andes. Calidad premium para exportación y consumo consciente.">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#8fb23c",
+                        "primary-dark": "#6b8e2d",
+                        "accent-gold": "#c5a059",
+                        "accent-orange": "#d35400",
+                        "background-light": "#fdfbf7",
+                        "background-dark": "#1a1c14",
+                        "deep-forest": "#1b2e1b",
+                        "earthy-brown": "#4e342e",
+                    },
+                    fontFamily: {
+                        sans: ["Plus Jakarta Sans", "sans-serif"],
+                        display: ["Plus Jakarta Sans", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-morphism {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+</head>
+<body class="bg-background-light text-deep-forest antialiased">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
